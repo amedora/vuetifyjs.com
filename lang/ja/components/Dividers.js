@@ -1,27 +1,27 @@
 export default {
   header: 'Divider',
-  headerText: 'The `v-divider` component is used to separate sections of lists.',
+  headerText: '`v-divider` コンポーネントは、リスト中のセクションの区切り線として使用することができます。',
   components: ['v-divider'],
   examples: [{
     fullBleed: {
-      header: 'Full bleed',
-      desc: 'Full bleed dividers extend the entire content width.'
+      header: '全幅',
+      desc: '区切り線はコンテンツの幅に合わせて表示されます。'
     },
     lightAndDark: {
-      header: 'Light and dark',
-      desc: 'Dividers have light and dark variants.',
+      header: 'テーマ対応',
+      desc: '区切り線はテーマの切り替え (light & dark) に対応しています。',
       uninverted: true
     },
     inset: {
-      header: 'Inset dividers',
-      desc: 'Inset dividers are moved 72px to the right. This will cause them to line up with list items.'
+      header: 'インデント',
+      desc: '水平方向の位置をリストアイテムと揃えるために、72px 右に寄せて表示できます。'
     },
     subheaders: {
-      header: 'Subheaders and dividers',
-      desc: 'Subheaders can be lined up with inset dividers by using the same prop.'
+      header: 'サブヘッダと区切り線',
+      desc: 'サブヘッダと区切り線は、両方で inset プロパティを使用することで水平方向の位置を揃えることができます。'
     }
   }],
   props: {
-    inset: 'Adds indentation (72px)'
+    inset: 'インデントを加えます。 (72px)'
   }
 }
