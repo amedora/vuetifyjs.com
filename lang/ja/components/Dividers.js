@@ -9,7 +9,7 @@ export default {
     },
     lightAndDark: {
       header: 'テーマ対応',
-      desc: '区切り線はテーマの切り替え (light & dark) に対応しています。',
+      desc: '区切り線は light テーマ と dark テーマ の切り替えに対応しています。',
       uninverted: true
     },
     inset: {
